@@ -78,7 +78,7 @@ hello.proto
 syntax = "proto3";
 
 package proto;
-option go_package="./../proto";
+option go_package=".;proto";
 
 // 定义请求结构
 message HelloRequest{
